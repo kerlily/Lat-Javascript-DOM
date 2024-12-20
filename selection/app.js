@@ -1,4 +1,4 @@
-// const allImages = document.getElementsByTagName('img');
+const allImages = document.getElementsByTagName('img');
 
 // for (let img of allImages) {
 // 	// console.log(img.src);
@@ -13,10 +13,11 @@
 // 		'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Cat_August_2010-4.jpg/1920px-Cat_August_2010-4.jpg';
 // }
 
+
 const links = document.querySelectorAll('a');
 
 for (let link of links) {
-	link.style.color = 'rgb(0, 108, 134)';
-	link.style.textDecorationColor = 'magenta';
+	link.style.color = 'rgb(15, 187, 46)';
+	link.style.textDecorationColor = 'pink';
 	link.style.textDecorationStyle = 'wavy';
 }
