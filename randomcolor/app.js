@@ -5,7 +5,7 @@ button.addEventListener('click', () => {
 	const newColor = generatorColor();
 	document.body.style.backgroundColor = newColor
 	console.log(newColor);
-	h1.innerText = document.body;
+	h1.innerText = newColor;
 });
 
 const generatorColor = () => {

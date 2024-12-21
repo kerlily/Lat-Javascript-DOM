@@ -8,14 +8,13 @@ const generateRandomColor = () => {
 
 const buttons = document.querySelectorAll('button');
 
-for (let button of buttons) {
-	button.addEventListener('click', colorize);
+for(let button of buttons) {
+	button.addEventListener('click', colorize);		
 }
 
-const headings = document.querySelectorAll('h1');
-
-for (let heading of headings) {
-	heading.addEventListener('click', colorize);
+const paragraf = document.querySelectorAll('h1');
+for(let teks of paragraf) {
+	teks.addEventListener('click', colorize);
 }
 
 function colorize() {
